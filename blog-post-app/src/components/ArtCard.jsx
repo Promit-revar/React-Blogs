@@ -4,9 +4,9 @@ import clapping from '../assets/Icons/clapping.svg';
 import heart_black from '../assets/Icons/heart-black.svg';
 import heart_red from '../assets/Icons/heart-red.svg';
 export default function ArtCard(props) {
-    const [like, setLike] = React.useState(false);
+    
     const handleLike = ()=>{
-        setLike(!like);
+        props.like(props.index);
     }
     const handleClap = ()=>{
         props.funcClap(props.index);
@@ -26,7 +26,7 @@ export default function ArtCard(props) {
                 
                 <div className="actions">
                     <div><img src={clapping} onClick={handleClap}/>{props.data.claps}</div>
-                    <div>{(like)?<img src={heart_red} onClick={handleLike}/>:<img src={heart_black} onClick={handleLike}/>}</div>
+                    <div>{(props.liked[props.index])?<img src={heart_red} onClick={handleLike}/>:<img src={heart_black} onClick={handleLike}/>}</div>
                 </div>
                     
                 

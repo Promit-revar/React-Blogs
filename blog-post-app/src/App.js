@@ -6,38 +6,32 @@ import ArtCard from './components/ArtCard';
 import data from './assets/mockData/index.json';
 function App(){
   const clappedArr = new Array(data.data.length).fill(false);
+  const [like, setLike] = React.useState([...clappedArr]);
   const [clapped, setClapped] = React.useState([...clappedArr]);
   const [indexClapped,setIndexClapped] = React.useState(-1);
-  
- const useEffect=(() => {
-    console.log("useEffect called"  + indexClapped)
+  const useEffect=(() => {
     if(indexClapped === -1) return;
     if(clapped[indexClapped]){
-      console.log("clapped");
       data.data[indexClapped].claps++;
     }
     else{
-      console.log("unclapped")
       data.data[indexClapped].claps--;
     }
-    console.log(data.data[indexClapped].claps);
-    
   })();
-  const clap = (clp) => { 
-    setClapped(clapped.map((item,i) => i === clp ? !item : item));
-    setIndexClapped(clp);
-    
+  const likeBlog = (index) => {
+    setLike(like.map((item,i) => i === index ? !item : item));
   }
-  
+  const clap = (clp) => {
+    setClapped(clapped.map((item,i) => i === clp ? !item : item));
+    setIndexClapped(clp); 
+  }
   return (
     <body>
     <div>
       <NavComponent />
     </div>
        <BodyComponent>
-        
-        {data.data.map((item,i) =>  <ArtCard data={item} funcClap={clap} index={i}/>)}
-         
+        {data.data.map((item,i) =>  <ArtCard data={item} funcClap={clap} index={i} like={likeBlog} liked={like}/>)} 
       </BodyComponent>
       < FooterComponent />
     </body>
