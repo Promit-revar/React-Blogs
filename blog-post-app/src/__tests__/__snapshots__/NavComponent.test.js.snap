@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Component Snapshot should render the Nav component 1`] = `
+<DocumentFragment>
+  <nav>
+    <div
+      class="logo"
+    >
+      <h1>
+        The Artifact
+      </h1>
+      <em>
+        Culture & Art blog
+      </em>
+    </div>
+    <div
+      class="nav-links"
+    >
+      <a
+        to="#"
+      >
+        Home
+      </a>
+      <a
+        to="#"
+      >
+        About
+      </a>
+      <a
+        to="#"
+      >
+        Contact
+      </a>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

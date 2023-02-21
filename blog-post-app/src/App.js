@@ -9,6 +9,7 @@ function App(){
   const [like, setLike] = React.useState([...clappedArr]);
   const [clapped, setClapped] = React.useState([...clappedArr]);
   const [indexClapped,setIndexClapped] = React.useState(-1);
+  
   const useEffect=(() => {
     if(indexClapped === -1) return;
     if(clapped[indexClapped]){
@@ -26,15 +27,17 @@ function App(){
     setIndexClapped(clp); 
   }
   return (
-    <body>
+    <div>
     <div>
       <NavComponent />
     </div>
+    
        <BodyComponent>
-        {data.data.map((item,i) =>  <ArtCard data={item} funcClap={clap} index={i} like={likeBlog} liked={like}/>)} 
+        {data.data.map((item,i) =>  <ArtCard key={i} data={item} funcClap={clap} index={i} like={likeBlog} liked={like}/>)} 
       </BodyComponent>
       < FooterComponent />
-    </body>
+    
+    </div>
   );
 }
 

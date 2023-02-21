@@ -1,0 +1,376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot should render the App component 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <nav>
+        <div
+          class="logo"
+        >
+          <h1>
+            The Artifact
+          </h1>
+          <em>
+            Culture & Art blog
+          </em>
+        </div>
+        <div
+          class="nav-links"
+        >
+          <a
+            to="#"
+          >
+            Home
+          </a>
+          <a
+            to="#"
+          >
+            About
+          </a>
+          <a
+            to="#"
+          >
+            Contact
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="card "
+    >
+      <div
+        class="art-card"
+      >
+        <img
+          class="art-card-image"
+          src="abstract.png"
+        />
+        <div
+          class="info-box"
+        >
+          <div
+            class="timeline"
+          >
+            <div>
+              2nd Januray, 2018
+            </div>
+            <div>
+              2 mins
+            </div>
+          </div>
+          <div
+            class="title"
+          >
+            The future of abstract art and the culture ...
+          </div>
+          <div
+            class="desc"
+          >
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </div>
+          <hr />
+          <div
+            class="actions"
+          >
+            <div>
+              <img
+                data-testid="clap"
+                src="clapping.svg"
+              />
+              <span
+                data-testid="numberOfClaps"
+              >
+                10
+              </span>
+            </div>
+            <div>
+              <img
+                data-testid="heartB"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="art-card"
+      >
+        <img
+          class="art-card-image"
+          src="outdoor.png"
+        />
+        <div
+          class="info-box"
+        >
+          <div
+            class="timeline"
+          >
+            <div>
+              31st Januray, 2018
+            </div>
+            <div>
+              1 min
+            </div>
+          </div>
+          <div
+            class="title"
+          >
+            How painting outdoors can transform your 
+          </div>
+          <div
+            class="desc"
+          >
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </div>
+          <hr />
+          <div
+            class="actions"
+          >
+            <div>
+              <img
+                data-testid="clap"
+                src="clapping.svg"
+              />
+              <span
+                data-testid="numberOfClaps"
+              >
+                1
+              </span>
+            </div>
+            <div>
+              <img
+                data-testid="heartB"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="art-card"
+      >
+        <img
+          class="art-card-image"
+          src="young-painters.png"
+        />
+        <div
+          class="info-box"
+        >
+          <div
+            class="timeline"
+          >
+            <div>
+              20th March, 2018
+            </div>
+            <div>
+              2 mins
+            </div>
+          </div>
+          <div
+            class="title"
+          >
+            10 young painters you need to know
+          </div>
+          <div
+            class="desc"
+          >
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </div>
+          <hr />
+          <div
+            class="actions"
+          >
+            <div>
+              <img
+                data-testid="clap"
+                src="clapping.svg"
+              />
+              <span
+                data-testid="numberOfClaps"
+              >
+                15
+              </span>
+            </div>
+            <div>
+              <img
+                data-testid="heartB"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="art-card"
+      >
+        <img
+          class="art-card-image"
+          src="perfect-art.png"
+        />
+        <div
+          class="info-box"
+        >
+          <div
+            class="timeline"
+          >
+            <div>
+              22nd June, 2018
+            </div>
+            <div>
+              5 mins
+            </div>
+          </div>
+          <div
+            class="title"
+          >
+            Tips for creating the perfect art
+          </div>
+          <div
+            class="desc"
+          >
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </div>
+          <hr />
+          <div
+            class="actions"
+          >
+            <div>
+              <img
+                data-testid="clap"
+                src="clapping.svg"
+              />
+              <span
+                data-testid="numberOfClaps"
+              >
+                11
+              </span>
+            </div>
+            <div>
+              <img
+                data-testid="heartB"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="art-card"
+      >
+        <img
+          class="art-card-image"
+          src="inspired.png"
+        />
+        <div
+          class="info-box"
+        >
+          <div
+            class="timeline"
+          >
+            <div>
+              4th Feburary, 2019
+            </div>
+            <div>
+              9 mins
+            </div>
+          </div>
+          <div
+            class="title"
+          >
+            Stay inspired: top artists blog ...
+          </div>
+          <div
+            class="desc"
+          >
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </div>
+          <hr />
+          <div
+            class="actions"
+          >
+            <div>
+              <img
+                data-testid="clap"
+                src="clapping.svg"
+              />
+              <span
+                data-testid="numberOfClaps"
+              >
+                45
+              </span>
+            </div>
+            <div>
+              <img
+                data-testid="heartB"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="art-card"
+      >
+        <img
+          class="art-card-image"
+          src="reason.png"
+        />
+        <div
+          class="info-box"
+        >
+          <div
+            class="timeline"
+          >
+            <div>
+              10th Januray, 2019
+            </div>
+            <div>
+              2 mins
+            </div>
+          </div>
+          <div
+            class="title"
+          >
+            5 reasons why everyone should try an...
+          </div>
+          <div
+            class="desc"
+          >
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </div>
+          <hr />
+          <div
+            class="actions"
+          >
+            <div>
+              <img
+                data-testid="clap"
+                src="clapping.svg"
+              />
+              <span
+                data-testid="numberOfClaps"
+              >
+                11
+              </span>
+            </div>
+            <div>
+              <img
+                data-testid="heartB"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="footer "
+    >
+      <p>
+        @Artifact.com 2021
+      </p>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
