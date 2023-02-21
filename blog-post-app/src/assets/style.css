@@ -76,7 +76,7 @@ nav{
 .info-box{
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 60%; 
     justify-content: flex-start;
     padding: 5px;
     flex-wrap: wrap;
@@ -84,6 +84,8 @@ nav{
 }
 .title{
     font-size: 20px;
+    height: 25%;
+    overflow: scroll;
     font-weight: 1.82rem;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -101,6 +103,8 @@ nav{
     display: flex;
     color: rgb(155, 152, 152);
     font-size: small;
+    height: 38%;
+    overflow-y: scroll;
 }
 .actions{
     display: flex;

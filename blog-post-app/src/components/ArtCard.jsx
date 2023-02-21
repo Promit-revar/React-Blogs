@@ -3,6 +3,7 @@ import '../assets/style.css';
 import clapping from '../assets/Icons/clapping.svg';
 import heart_black from '../assets/Icons/heart-black.svg';
 import heart_red from '../assets/Icons/heart-red.svg';
+import moment from 'moment';
 export default function ArtCard(props) {
   const handleLike = () => {
     props.like(props.index);
@@ -14,12 +15,12 @@ export default function ArtCard(props) {
     <div className="art-card">
       <img
         className="art-card-image"
-        src={require(`../assets/Images/${props.data.image}`)}
+        src={props.data.image}
       />
       <div className="info-box">
         <div className="timeline">
-          <div>{props.data.date}</div>
-          <div>{props.data.readingTime}</div>
+          <div>{moment(props.data.date).format('LL')}</div>
+          <div>{props.data.reading_time}</div>
         </div>
 
         <div className="title">{props.data.title}</div>
@@ -32,6 +33,7 @@ export default function ArtCard(props) {
             <span data-testid={'numberOfClaps'}>{props.data.claps}</span>
           </div>
           <div>
+            
             {props.liked[props.index] ? (
               <img src={heart_red} data-testid="heartR" onClick={handleLike} />
             ) : (
